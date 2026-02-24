@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "odl-kernel"
+version = "0.9.0"
+license = "BUSL-1.1"
+description = "ODL (Organizational Definition Language) Execution Kernel & Physics"
+authors = ["Centillion System, Inc. <odl@centsys.jp>"]
+readme = "README.md"
+packages = [{include = "odl_kernel", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+pydantic = "^2.0"
+odl-lang = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src",
+    "."
+]
+
+[tool.poetry.urls]
+"Homepage" = "https://centsys.jp/"
+"Repository" = "https://github.com/co-crea/odl-kernel"

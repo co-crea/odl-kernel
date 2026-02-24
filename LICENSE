@@ -1,0 +1,62 @@
+Business Source License 1.1
+
+Parameters:
+
+Licensor:           Centillion System, Inc.
+Licensed Work:      The ODL Kernel Software and its associated source code, 
+                    as provided in this repository.
+Change Date:        Two years from the date of each version release.
+Change License:     Apache License, Version 2.0
+Additional Use Grant:
+
+You may make use of the Software in a production environment provided that you 
+meet ALL of the following conditions:
+
+(a) No Managed ODL Service: You do not use the Software to provide a "Managed ODL Service" 
+    to third parties. A "Managed ODL Service" is defined as any service, platform, 
+    or product where the primary value proposition derives from the execution, 
+    orchestration, or hosting of ODL code, OR where the capabilities, logic 
+    (including the signature-based ID generation), or outputs of the Software 
+    are exposed via an API or any other interface, functioning as a substitute 
+    for the Software itself.
+
+(b) Revenue Limit and Entity Scope: The total annual gross revenue of your 
+    Organization (as defined below) is less than $10,000,000 USD (Ten Million 
+    United States Dollars). 
+    - "Organization" includes the legal entity using the Software and all of 
+      its affiliates, parents, and subsidiaries. 
+    - Revenue shall be calculated on a "Consolidated Basis" including all 
+      entities under common "Control" (ownership of more than 50% of voting 
+      interests or the power to direct management).
+    - If your Organization exceeds this threshold, you must obtain a 
+      Commercial License from the Licensor.
+
+(c) Academic and Individual Use: Notwithstanding conditions (a) and (b), 
+    if you are an academic institution, non-profit research organization, or 
+    an individual using the Software strictly for non-commercial research, 
+    educational, or personal self-improvement purposes, you may use the 
+    Software without charge.
+
+(d) Audit Rights: Upon reasonable suspicion of non-compliance with the revenue 
+    limit, the Licensor reserves the right to request, and you agree to provide, 
+    official financial documentation (such as audited annual reports) to 
+    verify the consolidated gross revenue of your Organization.
+
+---
+
+License Text:
+
+The Licensor hereby grants you the right to copy, modify, create derivative 
+works, redistribute, and make use of the Licensed Work, provided that such 
+use is not a production use, and further provided that any such production 
+use complies with the Additional Use Grant above.
+
+All copies of the Licensed Work and any derivative works made by you must 
+contain this license document and all copyright notices.
+
+Effective upon the Change Date, or the fifth anniversary of the first public 
+release of the Licensed Work, whichever is earlier, the Licensor hereby 
+grants you rights under the Change License, and the restrictions set forth 
+in this License shall no longer apply.
+
+Copyright (c) 2026 Centillion System, Inc. All rights reserved.
