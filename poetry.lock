@@ -39,21 +39,19 @@ files = [
 
 [[package]]
 name = "odl-lang"
-version = "0.7.0"
+version = "0.9.0"
 description = "ODL (Organizational Definition Language) Core Library"
 optional = false
-python-versions = ">=3.11,<4.0"
+python-versions = "<4.0,>=3.11"
 groups = ["main"]
-files = []
-develop = true
+files = [
+    {file = "odl_lang-0.9.0-py3-none-any.whl", hash = "sha256:a332e076ea5446f9232a55db2fca603a4d8a8928664c6db25d82f4a0ef8cf3e9"},
+    {file = "odl_lang-0.9.0.tar.gz", hash = "sha256:3d10331a7d7020bbb2be185edcd3442882fb37435a6de3919fd08954cbbac109"},
+]
 
 [package.dependencies]
-pydantic = "^2.0"
-pyyaml = "^6.0"
-
-[package.source]
-type = "directory"
-url = "../odl-lang"
+pydantic = ">=2.0,<3.0"
+pyyaml = ">=6.0,<7.0"
 
 [[package]]
 name = "packaging"
@@ -389,4 +387,4 @@ typing-extensions = ">=4.12.0"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0"
-content-hash = "dcddbc971153f618b90bb4011cef9a8d35b5ff71d0db39224591a7ecd9b4cf48"
+content-hash = "54d06159f3d7f5f3059f8492b0c371b09c161558ede02b385049776addf8c7ef"

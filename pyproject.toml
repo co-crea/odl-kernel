@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "odl-kernel"
-version = "0.9.0"
+version = "0.9.1"
 license = "BUSL-1.1"
 description = "ODL (Organizational Definition Language) Execution Kernel & Physics"
 authors = ["Centillion System, Inc. <odl@centsys.jp>"]
@@ -13,7 +13,7 @@ pydantic = "^2.0"
 odl-lang = "^0.9.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
