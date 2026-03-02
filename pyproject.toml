@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "odl-kernel"
-version = "0.9.0"
+version = "0.9.1"
 license = "BUSL-1.1"
 description = "ODL (Organizational Definition Language) Execution Kernel & Physics"
 authors = ["Centillion System, Inc. <odl@centsys.jp>"]
